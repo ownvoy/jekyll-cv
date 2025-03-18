@@ -1,77 +1,62 @@
-name: John Doe
+name: Oh Won Jun
 support_dark_mode: true
 fork: true
 
 # Sidebar
 contact:
-  email: info@johndoe.com
-  github: johndoe
-  linkedin: johndoe
-  phone: 
-  gitlab: 
-  twitter: 
+  email: ownvoy@g.skku.edu
+  github: ownvoy
+  # linkedin:
+  # phone: 
+  # gitlab: 
+  # twitter: 
 
 languages:
+  - idiom: Korean
   - idiom: English
-  - idiom: Russian
-  - idiom: French
 
 education:
-  - degree: MSc in Informatics
-    time: 2014-2016
-    university: Ionian University
+  - degree: BAc in Korean Language
+    time: 2021-2026.02
+    university: Sungkyunkwan University
 
-  - degree: BSc in Computer Science
-    time: 2010-2014
-    university: Ionian University
-
+  - degree: BSc in Computer Science and Egineering
+    time: 2021-2026.02
+    university: Sungkyunkwan University
+    
 skills:
-  - category: Backend
+  - category: Computer Science
     skill: 
-      - Go
-      - Rust
-  - category: Frontend
-    skill:
-      - React
-      - Typescript
+      - C, C++, Python
+      - PyTorch
+      - ROS
+      - NVIM
   - category: DevOps
     skill:
       - Docker
-      - Kubernetes 
 
 # Profile
 profile: |
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-  fugiat nulla pariatur.
+  Research Interests: Scalable perception frameworks enabling robust world understanding through the integration of 3D and computer vision, efficient machine learning, and neural compression
 
 # Experience
 experience:
-  - role: Software Engineer
-    time: 2020-Present
-    company: Google
+  - role: Undergraduate Research Intern
+    time: 2024.04 ~ 2024.07
+    company: LAIR Lab in SKKU / Advised by Hyeonwoo Yu
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
+      Developed foundational expertise in SLAM and ROS within a lab dedicated to integrating AI with robotics, 
+      and explored advanced SLAM techniques using NeRF and 3DGS.
     technologies_used: | 
-      Go, Angular, Typescript, C++
+      PyTorch, ROS
   
-  - role: Researcher
-    time: 2016-2020
-    company: Microsoft
+  - role: Undergraduate Research Intern
+    time: 2024.08 ~ 2025.03
+    company: IRIS Lab in SKKU / Advised by Jong Hwan Ko
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
+      Studied neural compression models and executed projects on image and 3DGS compression within a lab focused on efficient data processing for edge devices
     technologies_used: | 
-      Python, Tensorflow, Keras, Matlab
+      Pytorch
 
 publications:
   - title: Random title of paper. An interesting one.
