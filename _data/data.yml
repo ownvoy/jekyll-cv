@@ -20,7 +20,7 @@ education:
     time: 2021-2026.02
     university: Sungkyunkwan University
 
-  - degree: BSc in Computer Science and Egineering
+  - degree: BSc in Computer Science
     time: 2021-2026.02
     university: Sungkyunkwan University
     
@@ -58,29 +58,39 @@ experience:
     technologies_used: | 
       Pytorch
 
-publications:
-  - title: Random title of paper. An interesting one.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference, 2016
-
-  - title: Second title of paper. An interesting one too.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference again, 2018
-
 projects:
-  - title: Cool Project 
+  - title: Towards Night Robust and Improved Depth Completion for Autonmous Driving
+    subject: CS480: Introduction to Artificial Intelligence (Kaist Exchange Student)
+    time: Spring 2023
     link: #
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
+      Proposed a novel Vision Transformer-based dual-branch model for depth completion, effectively fusing LiDAR and camera data.
+      Achieved state-of-the-art performance on NYUv2 and Night-scene KITTI, including night conditions.
 
-  - title: Cool Project 
+  - title: Uncertainty-Aware NICE-SLAM for Robust Localization and Mapping
+    subject: Undergraduate Research Program I
+    time: Summer 2023
     link: #
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
+      Enhanced NICE-SLAM by integrating uncertainty estimation into photometric and geometric loss, 
+      improving robustness in uncertain conditions. 
+      Achieved superior performance on the Replica dataset, demonstrating better adaptability to real-world sensor noise.
+      
+  - title: PCC-Based 3D Gaussian Splatting Compression for XYZ
+    subject: Undergraduate Research Program II
+    time: Fall 2023
+    link: #
+    details: |
+      Proposed a framework that exclusively compresses xyz coordinates using a PCC model, enabling seamless integration with existing attribute compression methods. 
+      Fine-tuning the PCC decoder boosts PSNR and storage efficiency, as demonstrated on Synthetic NeRF and Tanks&Temples datasets.
+  
+  - title: Adaptive Image Downscaling via INR-Based End-to-End Optimization for Task-Aware Compression
+    subject: Undergraduate Research Program III
+    time: Winter 2023
+    link: #
+    details: |
+      Proposed an end-to-end pipeline using INR-based differentiable downscaling and a learned scale predictor to optimize rate-accuracy trade-off for object detection. 
+      Achieved higher mAP at lower bitrates compared to traditional JPEG compression on the COCO dataset.
 
 # Volunteering
 volunteering:
