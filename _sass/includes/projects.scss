@@ -10,5 +10,8 @@
         .details {
             @include body-text;
         }
+        .time {
+            @include body-text;
+        }
     }
 }
