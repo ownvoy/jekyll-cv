@@ -2,21 +2,27 @@
     .title {
         @include header;
     }
-    .project {
-        margin-bottom: 20px;
+    .projects-item {
+        .project-title {
+            @include sub-header;
+        }
         .project-link {
             @include body-text;
         }
-        .details {
+        .subject {
             @include body-text;
-        }
-     .semester {
+            font-weight: bold;
             .time {
-                display: inline-block; // 또는 display: block;
                 float: right;
                 color: var(--fg-color-title-sm);
                 font-weight: 100;
             }
+        }
+        .details {
+            @include body-text;
+        }
+        .technologies {
+            @include body-text;
         }
     }
 }

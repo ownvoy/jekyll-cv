@@ -2,18 +2,24 @@
 {% if projects %}
 <section class="projects">
     <h2 class="title">Projects</h2>
-    {% for p in projects %}
-        <div class="project">
+    {% for proj in projects %}
+        <div class="projects-item">
+            <div class="project-title">
+                {{proj.project-title}}
+            </div>
+            <div class="subject">
+                {{proj.subject}} 
+                <span class="time">{{proj.time}}</span>
+            </div> 
+            <div class="details">{{proj.details}}</div>
+
             <span>
-                <a class="project-link" href="{{p.link}}">
-                    {{p.title}}
+                <a class="project-link" href="{{proj.link}}">
+                  link:
                 </a>
             </span>
-            <div class="semester">
-            <span class="time">{{p.time}}</span>
-            </div> 
-            <span class="details">- {{p.details}}</span>
         </div>
+       
     {% endfor %}
 </section>
 {% endif %}
