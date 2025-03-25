@@ -1,11 +1,12 @@
-.projects_css {
+.projects {
     .title {
         @include header;
     }
+
+    .project-title {
+        @include sub-header;
+    }
     .projects-item {
-        .project-title {
-            @include sub-header;
-        }
         .project-link {
             @include body-text;
         }
