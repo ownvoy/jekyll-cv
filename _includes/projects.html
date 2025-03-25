@@ -2,14 +2,17 @@
 {% if projects %}
 <section class="projects">
     <h2 class="title">Projects</h2>
-    <div class="project-title">
-                {{proj.project-title}}
-    </div>
     {% for proj in projects %}
+        <div class="experience-item">
+            <div class="project-title">
+                {{proj.project-title}}
+            </div>
+
             <div class="subject">
                 {{proj.subject}} 
                 <span class="time">{{proj.time}}</span>
             </div> 
+
             <div class="details">{{proj.details}}</div>
 
             <span>
@@ -18,6 +21,7 @@
                 </a>
             </span>
        
+        </div>
     {% endfor %}
 </section>
 {% endif %}
