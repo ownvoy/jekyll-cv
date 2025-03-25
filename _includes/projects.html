@@ -13,15 +13,13 @@
                 <span class="time">{{proj.time}}</span>
             </div> 
 
-            <div class="details">{{proj.details}}</div>
+            <div class="details">
+                        {{ proj.details }}
+                        <a class="project-link" href="{{ proj.link }}"> (link)</a>
+            </div>
 
-            <span>
-                <a class="project-link" href="{{proj.link}}">
-                  link:
-                </a>
-            </span>
-       
         </div>
+        <p></p>
     {% endfor %}
 </section>
 {% endif %}
