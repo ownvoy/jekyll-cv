@@ -1,0 +1,35 @@
+# .github/workflows/gh-pages.yml
+
+name: Build & Deploy Jekyll Site
+
+on:
+  push:
+    branches:
+      - main  # 기본 브랜치명을 사용하세요. master가 아니라면 변경.
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.1
+          bundler-cache: true
+
+      - name: Install dependencies
+        run: bundle install --jobs 4 --retry 3
+
+      - name: Build site with Jekyll
+        run: bundle exec jekyll build --destination ./_site
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.ghp_teao7wceinwvxgiw3vohcviwthtekl37rb8l}}
+          publish_dir: ./_site
+
