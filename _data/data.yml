@@ -1,13 +1,13 @@
 name: Oh Won Jun
-support_dark_mode: true
-fork: true
+support_dark_mode: false
+fork: false
 
 # Sidebar
 contact:
   email: ownvoy@g.skku.edu
   github: ownvoy
   # linkedin:
-  # phone: 
+  phone: +821052795098
   # gitlab: 
   # twitter: 
 
@@ -28,66 +28,76 @@ skills:
   - category: Computer Science
     skill: 
       - C, C++, Python
-      - PyTorch
-      - ROS
-      - NVIM
+      - PyTorch, OpenGL, ROS
+      - Neovim
   - category: DevOps
     skill:
       - Docker
 
 # Profile
 profile: |
-  Research Interests: Scalable perception frameworks enabling robust world understanding through the integration of 3D and computer vision, efficient machine learning, and neural compression
+  Research Interests:  3D vision, computer vision, and vision-language models, with a focus on efficient representations and processing methods for real-world applications.
 
 # Experience
 experience:
   - role: Undergraduate Research Intern
     time: 2024.04 ~ 2024.07
-    company: LAIR Lab in SKKU / Advised by Hyeonwoo Yu
+    company: "LAIR Lab, Sungkyunkwan University (Advisor: Hyeonwoo Yu)"
     details: |
-      Developed foundational expertise in SLAM and ROS within a lab dedicated to integrating AI with robotics, 
-      and explored advanced SLAM techniques using NeRF and 3DGS.
+      Gained hands-on experience in SLAM and ROS, focusing on AI-driven robotics. Explored NeRF and 3D Gaussian Splatting for advanced SLAM.
     technologies_used: | 
       PyTorch, ROS
   
   - role: Undergraduate Research Intern
-    time: 2024.08 ~ 2025.03
-    company: IRIS Lab in SKKU / Advised by Jong Hwan Ko
+    time: 2024.08 ~ 2025.05
+    company: "IRIS Lab, Sungkyunkwan University (Advisor: Jong Hwan Ko)"
     details: |
       Studied neural compression models and executed projects on image and 3DGS compression within a lab focused on efficient data processing for edge devices
     technologies_used: | 
-      Pytorch
+      PyTorch
 
 projects:
-  - project-title: Towards Night Robust and Improved Depth Completion for Autonmous Driving
+  - project-title: Towards Night Robust and Improved Depth Completion for Autonomous Driving
     subject: "CS480: Introduction to Artificial Intelligence (Kaist Exchange Student)"
-    time: Spring 2023
-    link: #
+    time: Spring 2024
+    link: https://drive.google.com/file/d/172Ck0xLPSB_vgEGr0b5i438dYFhnaVPX/view?usp=sharing
     details: |
       Proposed a novel Vision Transformer-based dual-branch model for depth completion, effectively fusing LiDAR and camera data.
-      Achieved state-of-the-art performance on NYUv2 and Night-scene KITTI, including night conditions.
+      Achieved state-of-the-art results on NYUv2 and KITTI night scenes.
 
   - project-title: Uncertainty-Aware NICE-SLAM for Robust Localization and Mapping
-    subject: Undergraduate Research Program I
-    time: Summer 2023
-    link: #
+    subject: "SWE3042: Undergraduate Research Program I"
+    time: Summer 2024
+    link: https://drive.google.com/file/d/1Gu2IWSwtq-dTzPoMpIET8EjGZ6-ltxcy/view?usp=drive_link
     details: |
-      Enhanced NICE-SLAM by integrating uncertainty estimation into photometric and geometric loss, 
-      improving robustness in uncertain conditions. 
-      Achieved superior performance on the Replica dataset, demonstrating better adaptability to real-world sensor noise.
+      Enhanced NICE-SLAM by incorporating uncertainty estimation into both photometric and geometric losses, resulting in improved robustness under challenging sensor conditions
       
   - project-title: PCC-Based 3D Gaussian Splatting Compression for XYZ
-    subject: Undergraduate Research Program II
-    time: Fall 2023
-    link: #
+    subject: "ICE2009: Undergraduate Research Program II"
+    time: Fall 2024
+    link: https://drive.google.com/file/d/1pJWsW4r2R3DIehvMFFh2T7qL2BrF1h4r/view?usp=sharing
     details: |
-      Proposed a framework that exclusively compresses xyz coordinates using a PCC model, enabling seamless integration with existing attribute compression methods. 
-      Fine-tuning the PCC decoder boosts PSNR and storage efficiency, as demonstrated on Synthetic NeRF and Tanks&Temples datasets.
+      Proposed a framework that exclusively compresses xyz coordinates of 3DGS using a PCC model, enabling seamless integration with existing attribute compression methods. 
+      Fine-tuning the PCC decoder boosts PSNR and storage efficiency, as demonstrated on Synthetic NeRF datasets.
   
   - project-title: Adaptive Image Downscaling via INR-Based End-to-End Optimization for Task-Aware Compression
-    subject: Undergraduate Research Program III
-    time: Winter 2023
-    link: #
+    subject: "ICE2012: Undergraduate Research Program III"
+    time: Winter 2024
+    link: https://drive.google.com/file/d/11V2xjgNGemmInXFrasqOCVRdLVqmzgO_/view?usp=sharing
     details: |
       Proposed an end-to-end pipeline using INR-based differentiable downscaling and a learned scale predictor to optimize rate-accuracy trade-off for object detection. 
       Achieved higher mAP at lower bitrates compared to traditional JPEG compression on the COCO dataset.
+
+  - project-title: "Planets in Shadows"
+    subject: "SWE3008: Introduction to Computer Graphics"
+    time: Spring 2025
+    link:  https://drive.google.com/file/d/1PgYGObd-V8EPPGE2ulgS2-ckLJnTZ1la/view?usp=drive_link
+    details: |
+      Built an OpenGL renderer displaying nine textured planets in a Cornell Box with real-time shadows. Used per-fragment Blinn-Phong shading and ray-casting in GLSL to compute physically correct shadows, including self-shadow avoidance and interactive camera controls.
+
+  - project-title: "Image2History3D: Progressive 3D Rendering of Drawing History from a Single Image"
+    subject: "CS479: Machine Learning for 3D Data (KAIST Exchange Student)"
+    time: Spring 2025
+    link: https://drive.google.com/file/d/1GhdbLAfRSM1yjeMi8Y7Gr-ze9Zi_NX8v/view?usp=sharing
+    details: |
+      Proposed a novel rendering method that visualizes the entire drawing history of a 3D object by dynamically controlling Gaussian primitive opacity using binary masks, built on top of existing models (Paints-Undo and Triplane-Gaussian) for drawing stage extraction and 3D reconstruction.
