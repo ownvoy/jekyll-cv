@@ -47,8 +47,6 @@ experience:
       Language models for dialogue systems and multimodal vision-language models, with an interest in practical real-world applications.
     technologies_used: | 
       PyTorch
-
-
   - role: Undergraduate Research Intern
     time: 2024.08 ~ 2025.05
     company: "IRIS Lab, Sungkyunkwan University (Advisor: Jong Hwan Ko)"
@@ -56,7 +54,6 @@ experience:
       Studied neural compression models and executed projects on image and 3DGS compression within a lab focused on efficient data processing for edge devices
     technologies_used: | 
       PyTorch
-
   - role: Undergraduate Research Intern
     time: 2024.04 ~ 2024.07
     company: "LAIR Lab, Sungkyunkwan University (Advisor: Hyeonwoo Yu)"
@@ -73,23 +70,18 @@ projects:
     link: https://drive.google.com/file/d/1GhdbLAfRSM1yjeMi8Y7Gr-ze9Zi_NX8v/view?usp=sharing
     details: |
       Proposed a novel rendering method that visualizes the entire drawing history of a 3D object by dynamically controlling Gaussian primitive opacity using binary masks, built on top of existing models (Paints-Undo and Triplane-Gaussian) for drawing stage extraction and 3D reconstruction.
-
-
   - project-title: Adaptive Image Downscaling via INR-Based End-to-End Optimization for Task-Aware Compression
     subject: "ICE2012: Undergraduate Research Program III"
     time: Winter 2024 ~ Spring 2025
     link: https://drive.google.com/file/d/1Mk-1w8DeCLlIMLLQUqPxUgKdJJzL6f2U/view?usp=sharing
     details: |
       Proposed an INR-based end-to-end image downscaling pipeline that adaptively predicts the optimal scale for each image to maximize detection performance under compression constraints. Achieved improved efficiency and accuracy over traditional and heuristic adaptive approaches on COCO.
-
   - project-title: "Planets in Shadows"
     subject: "SWE3008: Introduction to Computer Graphics"
     time: Spring 2025
     link:  https://drive.google.com/file/d/1PgYGObd-V8EPPGE2ulgS2-ckLJnTZ1la/view?usp=drive_link
     details: |
       Built an OpenGL renderer displaying nine textured planets in a Cornell Box with real-time shadows. Used per-fragment Blinn-Phong shading and shadow ray-casting in GLSL for visually accurate shadow effects, including self-shadow avoidance. Implemented interactive camera controls and planet collision avoidance.
-
-
   - project-title: PCC-Based 3D Gaussian Splatting Compression for XYZ
     subject: "ICE2009: Undergraduate Research Program II"
     time: Fall 2024
@@ -97,11 +89,9 @@ projects:
     details: |
       Proposed a framework that exclusively compresses xyz coordinates of 3DGS using a PCC model, enabling seamless integration with existing attribute compression methods. 
       Fine-tuning the PCC decoder boosts PSNR and storage efficiency, as demonstrated on Synthetic NeRF datasets.
-
   - project-title: Uncertainty-Aware NICE-SLAM for Robust Localization and Mapping
     subject: "SWE3042: Undergraduate Research Program I"
     time: Summer 2024
     link: https://drive.google.com/file/d/1Gu2IWSwtq-dTzPoMpIET8EjGZ6-ltxcy/view?usp=drive_link
     details: |
       Enhanced NICE-SLAM by incorporating uncertainty estimation into both photometric and geometric losses, resulting in improved robustness under challenging sensor conditions
-      
