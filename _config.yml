@@ -13,3 +13,6 @@ plugins:
 
 exclude:
   - docker-compose.yml
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
