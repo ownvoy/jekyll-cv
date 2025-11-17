@@ -3,10 +3,10 @@ current directory: /home/wonjun/jekyll-cv/vendor/bundle/ruby/3.4.0/gems/http_par
 creating Makefile
 
 current directory: /home/wonjun/jekyll-cv/vendor/bundle/ruby/3.4.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
-make DESTDIR\= sitearchdir\=./.gem.20251118-924988-1965dn sitelibdir\=./.gem.20251118-924988-1965dn clean
+make DESTDIR\= sitearchdir\=./.gem.20251118-948477-u4gyez sitelibdir\=./.gem.20251118-948477-u4gyez clean
 
 current directory: /home/wonjun/jekyll-cv/vendor/bundle/ruby/3.4.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
-make DESTDIR\= sitearchdir\=./.gem.20251118-924988-1965dn sitelibdir\=./.gem.20251118-924988-1965dn
+make DESTDIR\= sitearchdir\=./.gem.20251118-948477-u4gyez sitelibdir\=./.gem.20251118-948477-u4gyez
 compiling ruby_http_parser.c
 ruby_http_parser.c: In function ‘Parser_alloc_by_type’:
 ruby_http_parser.c:296:3: warning: ‘rb_data_object_wrap_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
@@ -163,8 +163,8 @@ compiling ryah_http_parser.c
 linking shared-object ruby_http_parser.so
 
 current directory: /home/wonjun/jekyll-cv/vendor/bundle/ruby/3.4.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
-make DESTDIR\= sitearchdir\=./.gem.20251118-924988-1965dn sitelibdir\=./.gem.20251118-924988-1965dn install
-/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20251118-924988-1965dn
+make DESTDIR\= sitearchdir\=./.gem.20251118-948477-u4gyez sitelibdir\=./.gem.20251118-948477-u4gyez install
+/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20251118-948477-u4gyez
 
 current directory: /home/wonjun/jekyll-cv/vendor/bundle/ruby/3.4.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
-make DESTDIR\= sitearchdir\=./.gem.20251118-924988-1965dn sitelibdir\=./.gem.20251118-924988-1965dn clean
+make DESTDIR\= sitearchdir\=./.gem.20251118-948477-u4gyez sitelibdir\=./.gem.20251118-948477-u4gyez clean
