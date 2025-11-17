@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.rubygems_version = "2.5.1".freeze
   s.summary = "CSS minification with YUI compressor, but as native Ruby port.".freeze
 
-  s.installed_by_version = "3.6.7".freeze
+  s.installed_by_version = "3.6.9".freeze
 
   s.specification_version = 4
 

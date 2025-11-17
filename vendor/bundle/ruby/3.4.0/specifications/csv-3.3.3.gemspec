@@ -22,5 +22,5 @@ Gem::Specification.new do |s|
   s.rubygems_version = "3.6.2".freeze
   s.summary = "CSV Reading and Writing".freeze
 
-  s.installed_by_version = "3.6.7".freeze
+  s.installed_by_version = "3.6.9".freeze
 end

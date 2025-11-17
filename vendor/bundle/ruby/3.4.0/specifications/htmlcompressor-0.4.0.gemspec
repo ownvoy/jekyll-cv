@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.rubygems_version = "2.0.14.1".freeze
   s.summary = "htmlcompressor provides a class and a rack middleware to minify html pages".freeze
 
-  s.installed_by_version = "3.6.7".freeze
+  s.installed_by_version = "3.6.9".freeze
 
   s.specification_version = 4
 

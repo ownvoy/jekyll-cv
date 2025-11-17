@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.rubygems_version = "3.0.2".freeze
   s.summary = "Jekyll Minifier for html, css, and javascript".freeze
 
-  s.installed_by_version = "3.6.7".freeze
+  s.installed_by_version = "3.6.9".freeze
 
   s.specification_version = 2
 

@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.rubygems_version = "3.5.11".freeze
   s.summary = "Run JavaScript code from Ruby".freeze
 
-  s.installed_by_version = "3.6.7".freeze
+  s.installed_by_version = "3.6.9".freeze
 
   s.specification_version = 4
 

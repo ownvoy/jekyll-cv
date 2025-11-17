@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.rubygems_version = "2.7.3".freeze
   s.summary = "kramdown-parser-gfm provides a kramdown parser for the GFM dialect of Markdown".freeze
 
-  s.installed_by_version = "3.6.7".freeze
+  s.installed_by_version = "3.6.9".freeze
 
   s.specification_version = 4
 

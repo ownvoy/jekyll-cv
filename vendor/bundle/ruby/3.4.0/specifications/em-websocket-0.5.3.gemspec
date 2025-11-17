@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.rubygems_version = "3.0.3.1".freeze
   s.summary = "EventMachine based WebSocket server".freeze
 
-  s.installed_by_version = "3.6.7".freeze
+  s.installed_by_version = "3.6.9".freeze
 
   s.specification_version = 4
 

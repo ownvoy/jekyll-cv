@@ -22,5 +22,5 @@ Gem::Specification.new do |s|
   s.rubygems_version = "3.6.0.dev".freeze
   s.summary = "Rake is a Make-like program implemented in Ruby".freeze
 
-  s.installed_by_version = "3.6.7".freeze
+  s.installed_by_version = "3.6.9".freeze
 end

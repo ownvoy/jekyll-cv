@@ -9,16 +9,16 @@ checking for whether -std=c99 is accepted as CFLAGS... yes
 creating Makefile
 
 current directory: /home/wonjun/jekyll-cv/vendor/bundle/ruby/3.4.0/gems/json-2.10.2/ext/json/ext/parser
-make DESTDIR\= sitearchdir\=./.gem.20250607-466363-lvqz6n sitelibdir\=./.gem.20250607-466363-lvqz6n clean
+make DESTDIR\= sitearchdir\=./.gem.20251118-924988-9rrvyn sitelibdir\=./.gem.20251118-924988-9rrvyn clean
 
 current directory: /home/wonjun/jekyll-cv/vendor/bundle/ruby/3.4.0/gems/json-2.10.2/ext/json/ext/parser
-make DESTDIR\= sitearchdir\=./.gem.20250607-466363-lvqz6n sitelibdir\=./.gem.20250607-466363-lvqz6n
+make DESTDIR\= sitearchdir\=./.gem.20251118-924988-9rrvyn sitelibdir\=./.gem.20251118-924988-9rrvyn
 compiling parser.c
 linking shared-object json/ext/parser.so
 
 current directory: /home/wonjun/jekyll-cv/vendor/bundle/ruby/3.4.0/gems/json-2.10.2/ext/json/ext/parser
-make DESTDIR\= sitearchdir\=./.gem.20250607-466363-lvqz6n sitelibdir\=./.gem.20250607-466363-lvqz6n install
-/usr/bin/install -c -m 0755 parser.so ./.gem.20250607-466363-lvqz6n/json/ext
+make DESTDIR\= sitearchdir\=./.gem.20251118-924988-9rrvyn sitelibdir\=./.gem.20251118-924988-9rrvyn install
+/usr/bin/install -c -m 0755 parser.so ./.gem.20251118-924988-9rrvyn/json/ext
 
 current directory: /home/wonjun/jekyll-cv/vendor/bundle/ruby/3.4.0/gems/json-2.10.2/ext/json/ext/parser
-make DESTDIR\= sitearchdir\=./.gem.20250607-466363-lvqz6n sitelibdir\=./.gem.20250607-466363-lvqz6n clean
+make DESTDIR\= sitearchdir\=./.gem.20251118-924988-9rrvyn sitelibdir\=./.gem.20251118-924988-9rrvyn clean

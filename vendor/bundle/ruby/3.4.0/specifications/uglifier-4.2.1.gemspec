@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.rubygems_version = "3.2.22".freeze
   s.summary = "Ruby wrapper for UglifyJS JavaScript compressor".freeze
 
-  s.installed_by_version = "3.6.7".freeze
+  s.installed_by_version = "3.6.9".freeze
 
   s.specification_version = 4
 

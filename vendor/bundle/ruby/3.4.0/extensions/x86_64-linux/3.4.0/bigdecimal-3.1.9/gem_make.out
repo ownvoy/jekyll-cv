@@ -28,17 +28,17 @@ checking for RB_WARN_CATEGORY_DEPRECATED in ruby.h... yes
 creating Makefile
 
 current directory: /home/wonjun/jekyll-cv/vendor/bundle/ruby/3.4.0/gems/bigdecimal-3.1.9/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20250607-466363-gfsxqh sitelibdir\=./.gem.20250607-466363-gfsxqh clean
+make DESTDIR\= sitearchdir\=./.gem.20251118-924988-gbbl7n sitelibdir\=./.gem.20251118-924988-gbbl7n clean
 
 current directory: /home/wonjun/jekyll-cv/vendor/bundle/ruby/3.4.0/gems/bigdecimal-3.1.9/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20250607-466363-gfsxqh sitelibdir\=./.gem.20250607-466363-gfsxqh
+make DESTDIR\= sitearchdir\=./.gem.20251118-924988-gbbl7n sitelibdir\=./.gem.20251118-924988-gbbl7n
 compiling bigdecimal.c
 compiling missing.c
 linking shared-object bigdecimal.so
 
 current directory: /home/wonjun/jekyll-cv/vendor/bundle/ruby/3.4.0/gems/bigdecimal-3.1.9/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20250607-466363-gfsxqh sitelibdir\=./.gem.20250607-466363-gfsxqh install
-/usr/bin/install -c -m 0755 bigdecimal.so ./.gem.20250607-466363-gfsxqh
+make DESTDIR\= sitearchdir\=./.gem.20251118-924988-gbbl7n sitelibdir\=./.gem.20251118-924988-gbbl7n install
+/usr/bin/install -c -m 0755 bigdecimal.so ./.gem.20251118-924988-gbbl7n
 
 current directory: /home/wonjun/jekyll-cv/vendor/bundle/ruby/3.4.0/gems/bigdecimal-3.1.9/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20250607-466363-gfsxqh sitelibdir\=./.gem.20250607-466363-gfsxqh clean
+make DESTDIR\= sitearchdir\=./.gem.20251118-924988-gbbl7n sitelibdir\=./.gem.20251118-924988-gbbl7n clean
