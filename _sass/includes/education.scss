@@ -8,12 +8,16 @@
         .degree {
             @include body-text;
             font-weight: bold;
+            overflow-wrap: anywhere;
         }
         .university {
             @include body-text;
+            text-align: left;
+            overflow-wrap: anywhere;
         }
         .time {
             @include body-text;
+            text-align: left;
         }
     }
 }
