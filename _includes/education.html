@@ -5,7 +5,10 @@
     {% for ed in education %}
         <div class="education-item">
             <div class="degree">{{ed.degree}}</div>
-            <div class="university">{{ed.university}}</div> 
+            <div class="university">{{ed.university}}</div>
+            {% if ed.advisor %}
+                <div class="university">Advisor: {{ed.advisor}}</div>
+            {% endif %}
             <div class="time">{{ed.time}}</div>
         </div>
     {% endfor %}
